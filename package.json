@@ -13,7 +13,9 @@
     "multi-tenant",
     "multi-tenant-routing",
     "realtime-sync",
-    "state-synchronization"
+    "state-synchronization",
+    "state-routing",
+    "embedded-replicas"
   ],
   "publishConfig": {
     "access": "public"
