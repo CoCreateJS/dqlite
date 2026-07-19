@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-dqlite/compare/v1.1.0...v1.1.1) (2026-07-19)
+
+
+### Bug Fixes
+
+* set default branch to main ([581567f](https://github.com/CoCreate-app/CoCreate-dqlite/commit/581567fa7e2aca7a113d9dd3a28294fe8b4f032d))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-dqlite/compare/v1.0.0...v1.1.0) (2026-07-19)
 
 
