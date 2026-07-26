@@ -15,18 +15,14 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  ********************************************************************************/
 
+import sqlite from "@cocreate/sqlite";
+
 /**
- * Universal router routing dqlite request methods safely.
- * Under the hood, dqlite query requests must be routed over its REST HTTP API
- * rather than standard in-process dqlite socket bindings.
+ * Universal router routing DQLite DB (SQLite API) request methods safely.
+ * Under the hood, this uses the fully-featured SQLite engine.
  */
-export const send = async (data) => {
-	// The dqlite wrapper handles mapping standard SQL execution blocks 
-	// into dqlite's HTTP API payload format: /db/execute or /db/query
-	console.log("[dqlite Wrapper] Routing request over HTTP REST Wire API...");
-	
-	// Temporary implementation fallback mapping dqlite's HTTP payload pipeline
-	return { status: true, message: "dqlite payload routed over HTTP wire protocol" };
+export const send = (data) => {
+	return sqlite.send(data);
 };
 
 export default { send };
