@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/CoCreateJS/dqlite/compare/v2.0.0...v2.0.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* upgrade CoCreate dependencies to v2 ([c2f767d](https://github.com/CoCreateJS/dqlite/commit/c2f767d7f4a72df624cc07923b3f11981ecb2ea4))
+
 # [2.0.0](https://github.com/CoCreateJS/dqlite/compare/v1.1.1...v2.0.0) (2026-11-02)
 
 
